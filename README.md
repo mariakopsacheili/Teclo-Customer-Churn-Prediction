@@ -17,7 +17,11 @@ The company assigned me the task of developing a **machine learning-based churn 
 
 #### Key Insights:
 - **High correlation** between `tenure` and `total charges` (r = 0.83), which may negatively affect model performance and interpretability.
+  ![image](https://github.com/user-attachments/assets/c24cd614-e965-4163-803f-942616b0f4c3)
+
 - The dataset is **imbalanced**, with more non-churn instances.
+  ![image](https://github.com/user-attachments/assets/ed73c358-90ce-4b1b-a5d1-66b7d2b09847)
+
 - Null values existed for 11 new customers—these were removed due to insufficient data.
 
 ---
@@ -51,6 +55,8 @@ The company assigned me the task of developing a **machine learning-based churn 
 
 #### ⚖️ Balancing the Dataset:
 - Applied **undersampling** to reduce class imbalance.
+  ![image](https://github.com/user-attachments/assets/9c6d1d82-49d7-4beb-931a-d6fda1137c73)
+
 - Re-split and scaled the data.
 
 #### 🔁 Second Attempt:
