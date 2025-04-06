@@ -92,7 +92,7 @@ The company assigned me the task of developing a **machine learning-based churn 
 - **Best Model**: Logistic Regression
 - **Recall**:
   - Class 0 (No Churn): **0.71**
-  - Class 1 (Churn): **0.79**
+  - Class 1 (Churn): **0.81**
 - **Accuracy**: **0.75**
 
 ---
