@@ -72,7 +72,7 @@ The company assigned me the task of developing a **machine learning-based churn 
 - **Logistic Regression** performed best with balanced prediction across classes.
 - Analyzed **feature importance**.
 
-![image](https://github.com/user-attachments/assets/1354f90e-df98-49cb-97ff-0e58a8c3a222)
+![image](https://github.com/user-attachments/assets/b916db2b-6b49-4a77-a49e-a8be7a301677)
 
 
 #### 🔁 Third Attempt:
