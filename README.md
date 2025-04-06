@@ -1,5 +1,8 @@
 # Telco Customer Churn Prediction
 
+![image](https://github.com/user-attachments/assets/d38ab77a-5b20-4253-972f-f0e5cc924e11)
+
+
 ## 📌 Introduction
 
 Telco, a leading telecommunications provider established in 2000, offers a wide range of services including mobile and landline communications, high-speed internet (broadband, fiber, wireless), TV and streaming, and online security solutions.
