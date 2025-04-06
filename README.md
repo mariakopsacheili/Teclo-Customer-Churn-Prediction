@@ -5,6 +5,8 @@
 
 ## 📌 Introduction
 
+### Hypothetical Scenario
+
 Telco, a leading telecommunications provider established in 2000, offers a wide range of services including mobile and landline communications, high-speed internet (broadband, fiber, wireless), TV and streaming, and online security solutions.
 
 The company assigned me the task of developing a **machine learning-based churn prediction model** using historical customer data. The primary objective is to identify customers at risk of churning so the marketing team can implement targeted retention strategies—ultimately reducing attrition and increasing customer loyalty.
