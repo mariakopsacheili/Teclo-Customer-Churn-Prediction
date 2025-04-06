@@ -1,6 +1,11 @@
 # Telco Customer Churn Prediction
 
+![image](https://github.com/user-attachments/assets/d38ab77a-5b20-4253-972f-f0e5cc924e11)
+
+
 ## 📌 Introduction
+
+### Hypothetical Scenario
 
 Telco, a leading telecommunications provider established in 2000, offers a wide range of services including mobile and landline communications, high-speed internet (broadband, fiber, wireless), TV and streaming, and online security solutions.
 
@@ -17,7 +22,13 @@ The company assigned me the task of developing a **machine learning-based churn 
 
 #### Key Insights:
 - **High correlation** between `tenure` and `total charges` (r = 0.83), which may negatively affect model performance and interpretability.
+  
+  ![image](https://github.com/user-attachments/assets/c24cd614-e965-4163-803f-942616b0f4c3)
+
 - The dataset is **imbalanced**, with more non-churn instances.
+  
+  ![image](https://github.com/user-attachments/assets/ed73c358-90ce-4b1b-a5d1-66b7d2b09847)
+
 - Null values existed for 11 new customers—these were removed due to insufficient data.
 
 ---
@@ -51,12 +62,18 @@ The company assigned me the task of developing a **machine learning-based churn 
 
 #### ⚖️ Balancing the Dataset:
 - Applied **undersampling** to reduce class imbalance.
+  
+![image](https://github.com/user-attachments/assets/9c6d1d82-49d7-4beb-931a-d6fda1137c73)
+
 - Re-split and scaled the data.
 
 #### 🔁 Second Attempt:
 - Evaluated multiple models: **Random Forest, XGBoost, Logistic Regression, SVM, LightGBM**.
 - **Logistic Regression** performed best with balanced prediction across classes.
 - Analyzed **feature importance**.
+
+![image](https://github.com/user-attachments/assets/b916db2b-6b49-4a77-a49e-a8be7a301677)
+
 
 #### 🔁 Third Attempt:
 - Reduced feature set to **top 10 most important features**.
@@ -75,7 +92,7 @@ The company assigned me the task of developing a **machine learning-based churn 
 - **Best Model**: Logistic Regression
 - **Recall**:
   - Class 0 (No Churn): **0.71**
-  - Class 1 (Churn): **0.79**
+  - Class 1 (Churn): **0.81**
 - **Accuracy**: **0.75**
 
 ---
