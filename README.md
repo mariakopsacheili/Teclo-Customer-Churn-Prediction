@@ -67,6 +67,9 @@ The company assigned me the task of developing a **machine learning-based churn 
 - **Logistic Regression** performed best with balanced prediction across classes.
 - Analyzed **feature importance**.
 
+![image](https://github.com/user-attachments/assets/1354f90e-df98-49cb-97ff-0e58a8c3a222)
+
+
 #### 🔁 Third Attempt:
 - Reduced feature set to **top 10 most important features**.
 - Achieved **similar recall scores** as with full feature set—preferred due to simpler and more interpretable model.
